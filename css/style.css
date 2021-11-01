@@ -110,7 +110,7 @@ b{
     height: 515px;
     display: grid;
     grid-template-columns:repeat(12, 100px);
-    grid-template-rows: 250px 260x;
+    grid-template-rows: 250px 260px;
     row-gap: 2px;
 }
 
@@ -179,4 +179,59 @@ h3.logo_bar{
 .para_sub_item{
     font-size: 16px;
     text-align: center;
+}
+
+
+/*---------------------------Featured-------------------------------------*/
+
+.featured{
+    width: 1400px;
+    background-color: #161616;
+    margin: 0 auto;
+}
+
+.featured_grid{
+    display: grid;
+    grid-template-columns: repeat(12, 98px);
+    grid-template-rows: repeat(10, 1fr);
+    column-gap: 2.18px;
+    height: 705px;
+    background-color: #fff;
+}
+
+.featured_logo{
+    margin-top: 50px;
+    grid-column: 2 / 6;
+    grid-row: 1;
+
+}
+.logo_item_color{
+    color: #000;
+    font-size: 30px;
+}
+
+.featured_nav{
+    margin-top: 15px;
+    grid-column: 2 / 8;
+    grid-row: 2;
+}
+
+.featured_nav_item{
+    color: #101010;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.featured_nav_item:hover{
+    transition: 0.8s;
+    text-shadow: #ffc600;
+    text-decoration: underline red;
+    
+}
+
+.featured_content{
+    margin-top: 15px;
+    background: url(../img/Feature-fon.jpg) no-repeat top / cover;
+    grid-column: 1 / -1;
+    grid-row: 3 / -1;
 }
