@@ -105,6 +105,14 @@ b{
     margin: auto;
 }
 
+.aboute_line{
+    position: absolute;
+    margin-left: 130px;
+    display: flex;
+    width: 130px;
+    border-top: solid 0.5px #c5c5c5;
+}
+
 .about_grid{
     background-color: #fff  ;
     height: 515px;
@@ -190,6 +198,13 @@ h3.logo_bar{
     margin: 0 auto;
 }
 
+.featured_line{
+    margin-left: 100px;
+    display: flex;
+    width: 130px;
+    border-top: solid 0.5px #c5c5c5;
+}
+
 .featured_grid{
     display: grid;
     grid-template-columns: repeat(12, 98px);
@@ -198,6 +213,7 @@ h3.logo_bar{
     height: 705px;
     background-color: #fff;
 }
+
 
 .featured_logo{
     margin-top: 50px;
@@ -234,4 +250,160 @@ h3.logo_bar{
     background: url(../img/Feature-fon.jpg) no-repeat top / cover;
     grid-column: 1 / -1;
     grid-row: 3 / -1;
+}
+
+/*----------------------------Strategic---------------------------*/
+
+.strategic{
+    background-color: #161616;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.strategic_line{
+    margin-left: 100px;
+    display: flex;
+    width: 120px;
+    border-top: solid 0.5px #c5c5c5;
+}
+
+.strategic_grid{
+    background-color: #fff;
+    height: 1250px;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(12, 100px);
+    row-gap: 4.54px;
+}
+
+
+.strategic_logo{
+    grid-column: 2 / 5;
+    grid-row: 1;
+    margin-top: 40px;
+}
+
+.strategic_paragraph{
+    margin-top: 80px;
+    grid-column: 2 / 11;
+    grid-row: 1 / 3;
+    width: 1050px;
+}
+
+.fon_item_our{
+    background: url(../img/Proces-fon.jpg)no-repeat top;
+    width: 450px;
+    height: 280px;
+    grid-column: 2 / 7;
+    grid-row: 4 / 7;
+    margin-left: 40px;
+}
+
+
+.our_item_pro{
+    grid-column: 7 / 12;
+    grid-row: 4 / 6;
+}
+
+.method_item_para{
+    grid-column: 2 / 7;
+    grid-row: 7 / 9;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.fon_item_method{
+    background: url(../img/Methot-fon.jpg)no-repeat top / cover;
+    width: 430px;
+    height: 280px;
+    grid-column: 6 / 11;
+    grid-row: 6 / 9;
+    margin: 70px 0 0 80px;
+}
+
+.fon_outcome{
+    background: url(../img/Outcome-fon.jpg)no-repeat top / cover;
+    height: 290px;
+    width: 450px;
+    grid-column: 2 / 7;
+    grid-row: 9 / 11;
+    margin: 37px 0 0 30px;
+}
+
+.outcome_item_para{
+    grid-column: 7 / 11;
+    grid-row: 9 / 11;
+    margin-top: 70px;
+}
+
+.out_item{
+    margin-top: 30px;
+}
+
+.item_sub_p{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.item_sup_p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/*--------------------------------Services_Provided*/
+
+.services{
+    width: 1400px;
+    background-color: #161616;
+    margin: 0 auto; 
+}
+
+.provided_grid{
+    background: url(../img/Provided-fon.jpg)no-repeat top / cover;
+    height: 478px;
+    display: grid;
+    grid-template-columns: repeat(12, 98px);
+    grid-template-rows: 76px 78px 158px 158px;
+    gap: 3px 2.18px;
+}
+
+.line{
+    margin-left: 120px;
+    display: flex;
+    width: 132px;
+    border-top: solid 0.5px #c5c5c5;
+}
+
+.para_sab_item{
+    font-size: 11px;
+    color: #d6d5d9;
+    margin-top: 22px;
+}
+
+.services_logo{
+    grid-column: 1 / 5;
+    grid-row: 1;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.app_development_item{
+    grid-column: 5 / 8;
+    grid-row: 3;
+}
+
+.game_development_item{
+    grid-column: 8 / 11;
+    grid-row: 3;
+}
+
+.app_design_item{
+    grid-column: 5 / 8;
+    grid-row: 4;
+}
+
+.game_design_item{
+    grid-column: 8 / 11;
+    grid-row: 4;
 }
